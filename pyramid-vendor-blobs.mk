@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/xbin/wireless_modem:system/xbin/wireless_modem \
   vendor/htc/pyramid/proprietary/bin/bluetoothd:system/bin/bluetoothd \
   vendor/htc/pyramid/proprietary/bin/btld:system/bin/btld \
-  vendor/htc/pyramid/proprietary/bin/hciattach:system/bin/hciattach \
   vendor/htc/pyramid/proprietary/lib/libbluedroid.so:system/lib/libbluedroid.so \
   vendor/htc/pyramid/proprietary/lib/libbluetoothd.so:system/lib/libbluetoothd.so \
   vendor/htc/pyramid/proprietary/lib/libbluetooth.so:system/lib/libbluetooth.so \
