@@ -16,9 +16,6 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-  vendor/htc/pyramid/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
-  vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
-  vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
   vendor/htc/pyramid/proprietary/lib/libril.so:obj/lib/libril.so
 
 PRODUCT_COPY_FILES += \
@@ -33,6 +30,17 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/pyramid/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/htc/pyramid/proprietary/xbin/wireless_modem:system/xbin/wireless_modem \
+  vendor/htc/pyramid/proprietary/bin/bluetoothd:system/bin/bluetoothd \
+  vendor/htc/pyramid/proprietary/bin/btld:system/bin/btld \
+  vendor/htc/pyramid/proprietary/bin/hciattach:system/bin/hciattach \
+  vendor/htc/pyramid/proprietary/lib/libbluedroid.so:system/lib/libbluedroid.so \
+  vendor/htc/pyramid/proprietary/lib/libbluetoothd.so:system/lib/libbluetoothd.so \
+  vendor/htc/pyramid/proprietary/lib/libbluetooth.so:system/lib/libbluetooth.so \
+  vendor/htc/pyramid/proprietary/lib/libglib.so:system/lib/libglib.so \
+  vendor/htc/pyramid/proprietary/lib/bluez-plugin/audio.so:system/lib/bluez-plugin/audio.so \
+  vendor/htc/pyramid/proprietary/lib/bluez-plugin/bluetooth-health.so:system/lib/bluez-plugin/bluetooth-health.so \
+  vendor/htc/pyramid/proprietary/lib/bluez-plugin/input.so:system/lib/bluez-plugin/input.so \
+  vendor/htc/pyramid/proprietary/lib/bluez-plugin/network.so:system/lib/bluez-plugin/network.so \
   vendor/htc/pyramid/proprietary/etc/agps_rm:system/etc/agps_rm \
   vendor/htc/pyramid/proprietary/etc/thermald.conf:system/etc/thermald.conf \
   vendor/htc/pyramid/proprietary/etc/vpimg:system/etc/vpimg \
@@ -66,8 +74,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
   vendor/htc/pyramid/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
   vendor/htc/pyramid/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-  vendor/htc/pyramid/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
-  vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
   vendor/htc/pyramid/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/pyramid/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
@@ -123,5 +129,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libqmi.so:system/lib/libqmi.so \
   vendor/htc/pyramid/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
   vendor/htc/pyramid/proprietary/lib/libril.so:system/lib/libril.so \
+  vendor/htc/pyramid/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
+  vendor/htc/pyramid/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
   vendor/htc/pyramid/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
   vendor/htc/pyramid/proprietary/lib/hw/sensors.pyramid.so:system/lib/hw/sensors.pyramid.so
