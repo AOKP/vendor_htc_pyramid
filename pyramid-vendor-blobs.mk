@@ -16,6 +16,9 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
+  vendor/htc/pyramid/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
+  vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
+  vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
   vendor/htc/pyramid/proprietary/lib/libril.so:obj/lib/libril.so \
 
 PRODUCT_COPY_FILES += \
@@ -46,7 +49,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/etc/soundimage/Sound_Rec_Landscape.txt:system/etc/soundimage/Sound_Rec_Landscape.txt \
   vendor/htc/pyramid/proprietary/etc/soundimage/Sound_Recording.txt:system/etc/soundimage/Sound_Recording.txt \
   vendor/htc/pyramid/proprietary/etc/soundimage/Sound_Rec_Portrait.txt:system/etc/soundimage/Sound_Rec_Portrait.txt \
-  vendor/htc/pyramid/proprietary/etc/firmware/BCM4329B1_002.002.023.0589.0632.hcd:system/etc/firmware/BCM4329B1_002.002.023.0589.0632.hcd \
+  vendor/htc/pyramid/proprietary/etc/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
   vendor/htc/pyramid/proprietary/etc/firmware/fw_bcm4329_apsta.bin:system/etc/firmware/fw_bcm4329_apsta.bin \
   vendor/htc/pyramid/proprietary/etc/firmware/fw_bcm4329.bin:system/etc/firmware/fw_bcm4329.bin \
   vendor/htc/pyramid/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
@@ -63,8 +66,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/pyramid/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/htc/pyramid/proprietary/xbin/wireless_modem:system/xbin/wireless_modem \
-  vendor/htc/pyramid/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
-  vendor/htc/pyramid/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
+  vendor/htc/pyramid/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
+  vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
   vendor/htc/pyramid/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/pyramid/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
