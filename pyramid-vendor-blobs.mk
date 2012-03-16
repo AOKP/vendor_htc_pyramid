@@ -16,13 +16,15 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/pyramid/proprietary/lib/hw/camera.default.so:obj/lib/hw/camera.default.so \
-    vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/htc/pyramid/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
-    vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
-    vendor/htc/pyramid/proprietary/lib/libv8.so:obj/lib/libv8.so
+  vendor/htc/pyramid/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
+  vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
+  vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+  vendor/htc/pyramid/proprietary/lib/libril.so:obj/lib/libril.so \
 
 PRODUCT_COPY_FILES += \
+  vendor/htc/pyramid/proprietary/etc/agps_rm:system/etc/agps_rm \
+  vendor/htc/pyramid/proprietary/etc/thermald.conf:system/etc/thermald.conf \
+  vendor/htc/pyramid/proprietary/etc/vpimg:system/etc/vpimg \
   vendor/htc/pyramid/proprietary/etc/AdieHWCodec.csv:system/etc/AdieHWCodec.csv \
   vendor/htc/pyramid/proprietary/etc/AIC3254_REG.csv:system/etc/AIC3254_REG.csv \
   vendor/htc/pyramid/proprietary/etc/AIC3254_REG_DualMic.csv:system/etc/AIC3254_REG_DualMic.csv \
@@ -47,18 +49,13 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/etc/soundimage/Sound_Rec_Landscape.txt:system/etc/soundimage/Sound_Rec_Landscape.txt \
   vendor/htc/pyramid/proprietary/etc/soundimage/Sound_Recording.txt:system/etc/soundimage/Sound_Recording.txt \
   vendor/htc/pyramid/proprietary/etc/soundimage/Sound_Rec_Portrait.txt:system/etc/soundimage/Sound_Rec_Portrait.txt \
-  vendor/htc/pyramid/proprietary/etc/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
-  vendor/htc/pyramid/proprietary/etc/firmware/fw_bcm4329_apsta.bin:system/etc/firmware/fw_bcm4329_apsta.bin \
-  vendor/htc/pyramid/proprietary/etc/firmware/fw_bcm4329.bin:system/etc/firmware/fw_bcm4329.bin \
-  vendor/htc/pyramid/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-  vendor/htc/pyramid/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-  vendor/htc/pyramid/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
   vendor/htc/pyramid/proprietary/bin/charging:system/bin/charging \
   vendor/htc/pyramid/proprietary/bin/htcbatt:system/bin/htcbatt \
   vendor/htc/pyramid/proprietary/bin/ipd:system/bin/ipd \
   vendor/htc/pyramid/proprietary/bin/load-modem.sh:system/bin/load-modem.sh \
   vendor/htc/pyramid/proprietary/bin/mpdecision:system/bin/mpdecision \
   vendor/htc/pyramid/proprietary/bin/netmgrd:system/bin/netmgrd \
+  vendor/htc/pyramid/proprietary/bin/netsharing:system/bin/netsharing \
   vendor/htc/pyramid/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/pyramid/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/pyramid/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -66,8 +63,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
   vendor/htc/pyramid/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-  vendor/htc/pyramid/proprietary/lib/libaudcalwb.so:system/lib/libaudcalwb.so \
-  vendor/htc/pyramid/proprietary/lib/libaudcal_nel.so:system/lib/libaudcal_nel.so \
   vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/pyramid/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
   vendor/htc/pyramid/proprietary/bin/bluetoothd:system/bin/bluetoothd \
@@ -114,7 +109,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libqdp.so:system/lib/libqdp.so \
   vendor/htc/pyramid/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
   vendor/htc/pyramid/proprietary/lib/libqmi.so:system/lib/libqmi.so \
-  vendor/htc/pyramid/proprietary/lib/libv8.so:system/lib/libv8.so \
   vendor/htc/pyramid/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
   vendor/htc/pyramid/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/htc/pyramid/proprietary/lib/hw/sensors.pyramid.so:system/lib/hw/sensors.pyramid.so \
