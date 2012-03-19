@@ -64,16 +64,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/pyramid/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
-  vendor/htc/pyramid/proprietary/bin/bluetoothd:system/bin/bluetoothd \
-  vendor/htc/pyramid/proprietary/bin/btld:system/bin/btld \
-  vendor/htc/pyramid/proprietary/lib/bluez-plugin/audio.so:system/lib/bluez-plugin/audio.so \
-  vendor/htc/pyramid/proprietary/lib/bluez-plugin/bluetooth-health.so:system/lib/bluez-plugin/bluetooth-health.so \
-  vendor/htc/pyramid/proprietary/lib/bluez-plugin/input.so:system/lib/bluez-plugin/input.so \
-  vendor/htc/pyramid/proprietary/lib/bluez-plugin/network.so:system/lib/bluez-plugin/network.so \
-  vendor/htc/pyramid/proprietary/lib/libbluedroid.so:system/lib/libbluedroid.so \
-  vendor/htc/pyramid/proprietary/lib/libbluetoothd.so:system/lib/libbluetoothd.so \
-  vendor/htc/pyramid/proprietary/lib/libbluetooth.so:system/lib/libbluetooth.so \
-  vendor/htc/pyramid/proprietary/lib/libglib.so:system/lib/libglib.so \
   vendor/htc/pyramid/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
   vendor/htc/pyramid/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
   vendor/htc/pyramid/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
