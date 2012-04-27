@@ -18,7 +18,8 @@
 PRODUCT_COPY_FILES += \
 	vendor/htc/pyramid/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
 	vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
-	vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
+	vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+	vendor/htc/pyramid/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/etc/agps_rm:system/etc/agps_rm \
@@ -68,6 +69,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libqdp.so:system/lib/libqdp.so \
   vendor/htc/pyramid/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
   vendor/htc/pyramid/proprietary/lib/libqmi.so:system/lib/libqmi.so \
+  vendor/htc/pyramid/proprietary/lib/libv8.so:system/lib/libv8.so \
   vendor/htc/pyramid/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
   vendor/htc/pyramid/proprietary/lib/hw/sensors.pyramid.so:system/lib/hw/sensors.pyramid.so \
   vendor/htc/pyramid/proprietary/lib/libmllite.so:system/lib/libmllite.so \
