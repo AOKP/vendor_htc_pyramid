@@ -51,21 +51,22 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libchromatix_s5k3h1gx_zsl.so:system/lib/libchromatix_s5k3h1gx_zsl.so \
   vendor/htc/pyramid/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
   vendor/htc/pyramid/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+  vendor/htc/pyramid/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
   vendor/htc/pyramid/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
   vendor/htc/pyramid/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
   vendor/htc/pyramid/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
   vendor/htc/pyramid/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+  vendor/htc/pyramid/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/pyramid/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+  vendor/htc/pyramid/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/pyramid/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/htc/pyramid/proprietary/lib/libdll.so:system/lib/libdll.so \
   vendor/htc/pyramid/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
   vendor/htc/pyramid/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
   vendor/htc/pyramid/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-  vendor/htc/pyramid/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/pyramid/proprietary/lib/libidl.so:system/lib/libidl.so \
   vendor/htc/pyramid/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/pyramid/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-  vendor/htc/pyramid/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/pyramid/proprietary/lib/libqdp.so:system/lib/libqdp.so \
   vendor/htc/pyramid/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
   vendor/htc/pyramid/proprietary/lib/libqmi.so:system/lib/libqmi.so \
